@@ -3,7 +3,7 @@
 😠 Angry RAG Chatbot
 Bu proje, PDF dosyalarından belge içeriğini okuyup bölerek vektör veritabanında saklayan ve kullanıcı sorularına bu belgelerden bilgi çekerek öfkeli cevaplar veren bir RAG (Retrieval-Augmented Generation) uygulamasıdır.
 
-🚀 Özellikler
+### Özellikler
 
 📄 PDF klasöründen belge okuma ve bölme
 
@@ -17,7 +17,7 @@ Bu proje, PDF dosyalarından belge içeriğini okuyup bölerek vektör veritaban
 
 📚 Kaynak gösterimi: yanıtın dayandığı sayfa ve belge türü bilgisi
 
-## Klasör Yapısı
+### Klasör Yapısı
 
 ```
 ├── app.py              # FastAPI API ucu
@@ -29,6 +29,7 @@ Bu proje, PDF dosyalarından belge içeriğini okuyup bölerek vektör veritaban
 
 data/ klasörüne PDF dosyalarını yerleştir.
 API'yi çalıştır:
+
 ```
 uvicorn app:app --reload
 ```
@@ -36,6 +37,7 @@ uvicorn app:app --reload
 Post isteği ile soru gönder:
 ```
 json
+
 POST /ask
 {
     "question": "Raporlarda geçen temel maddeler nelerdir?"
