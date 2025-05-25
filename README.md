@@ -20,11 +20,11 @@ Bu proje, PDF dosyalarından belge içeriğini okuyup bölerek vektör veritaban
 ### Klasör Yapısı
 
 ```
-├── app.py              # FastAPI API ucu
+
 ├── rag_project.py      # Ana sınıf ve RAG işlemleri
 ├── data/               # PDF belgelerinin bulunduğu klasör
 ├── rag_db/             # Chroma vektör veritabanı
-└── README.md           # Bu dosya
+└── README.md           
 ```
 
 data/ klasörüne PDF dosyalarını yerleştir.
